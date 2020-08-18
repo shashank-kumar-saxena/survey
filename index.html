@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Survey form</title>
+    <link href='css\survey.css' rel="stylesheet" type='text/css'
+  </head>
+  <body>
+  <h1 id='title'>SURVEY FORM</h1>
+  <h3>it is a basic survey form about services</h3>
+<div id="survey-form">
+  <form method='post'>
+<div id='Name'>
+  Name
+          <br>
+
+<div class='box'>   <input type='text' placeholder="Enter your name" id='name-label'></div>
+          <br>
+</div>
+<div id='email'>
+  Email
+          <br>
+<div class='box'>     <input type='email' placeholder="Enter your email" id='email-label'></div>
+        <br>
+</div>
+<div id='number'>
+  Mobile No.
+          <br>
+  <div class='box'>     <input type='number' required  min="01000000000" max="1000000000" placeholder="Enter your name" id='number-label'></div>
+  <br>
+  </div>
+<div id='dropdown'>
+  Where do you hear about us?
+  <br>
+
+<select  name="list" id='list'>
+    <option value="0">select</option>
+    <option value="1">Google</option>
+    <option value="2">Yahoo</option>
+  </select>
+
+<br>
+</div>
+<div id='recommand'>
+Would you like to recommand about SKS?
+<br>
+<input type='radio' name='r1'>Definitely
+<br>
+<input type='radio' name='r1'>May be
+<br>
+<input type='radio' name='r1'>Not sure
+</div>
+<div id='checkbox'>
+Which part you like most?
+<br>
+<input type='checkbox' name='a' value='1'>front end
+<br>
+<input type='checkbox' name='b' value='1'>back end
+<br>
+<input type='checkbox' name='b' value='1'>JS libraries
+<br>
+<input type='checkbox' name='b' value='1'>Python
+</div>
+<div class="feedback">
+Feedback
+<br>
+<textarea name="feed" rows="5" cols="55"></textarea>
+</div>
+<input type='submit' value='Submit' id='submit'>
+  </form>
+</div>
+  </body>
+</html>
