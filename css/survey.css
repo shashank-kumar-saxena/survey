@@ -111,5 +111,9 @@ textarea
   background:lightgreen;
   font-size:.8em;
   height:2em;
-
+}
+textarea
+{
+  width:100%;
+  line-height:2.5em;
 }
